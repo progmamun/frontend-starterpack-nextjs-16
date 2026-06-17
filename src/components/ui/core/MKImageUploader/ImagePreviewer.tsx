@@ -43,7 +43,7 @@ const ImagePreviewer = ({
             type='button'
             size='sm'
             onClick={() => handleRemove(index)}
-            className='absolute -top-0 -right-0 h-6 w-6 rounded-full bg-red-300 p-0 hover:bg-red-400'
+            className='absolute top-0 right-0 h-6 w-6 rounded-full bg-red-300 p-0 hover:bg-red-400'
           >
             <X className='h-4 w-4' />
           </Button>
